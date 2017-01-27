@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteBase /course/
+RewriteCond $1 !^(index\.php|css|images|js|assets|uploads)
+RewriteRule ^(.*)$ index.php [L]
+
+

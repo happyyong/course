@@ -1,0 +1,57 @@
+ul.list_img{
+	position: relative;
+	list-style: none;
+	width: 100%;
+	height: 500px;
+}
+
+ul.list_img li{
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	text-align: center;
+}
+
+.reading{
+	float:right;
+    position:relative;
+    left:-50%;
+    text-align:left;
+}
+
+ul.triggers{
+	list-style:none;
+    position:relative;
+    left:50%;
+}
+
+ul.triggers li{
+	padding:15px
+}
+
+ul.triggers li{
+	float:left;
+	position:relative;
+	background: gold;
+	padding: 5px 15px;
+	margin: 15px;
+}
+
+ul.triggers li.active{
+	background: green;
+}
+
+.plsyDR{
+	width: 100%;
+    height: 650px;
+    overflow: hidden;
+    padding: 30px;
+    position: relative;
+}
+
+.readBT{
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
+}
